@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FirstBank - SME Growth Loan</title>
+  <style>
+    :root { --primary: #002D62; --accent: #D4AF37; --bg: #F8FAFC; }
+    body { font-family: sans-serif; margin: 0; background: var(--bg); color: #1E293B; }
+    .hero { background: var(--primary); color: white; padding: 40px 20px; text-align: center; }
+    .hero h1 { font-size: 2rem; margin-bottom: 10px; }
+    .hero p { color: #CBD5E1; font-size: 1.1rem; max-width: 600px; margin: 0 auto 20px; }
+    .btn-apply { background: var(--accent); color: var(--primary); font-weight: bold; 
+                 padding: 14px 28px; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; }
+    .calculator { background: white; color: #1E293B; max-width: 450px; margin: -30px auto 30px; 
+                  padding: 24px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>FirstBank SME Growth Loan</h1>
+    <p>Empowering Nigerian businesses with up to ₦50 Million in flexible working capital.</p>
+    <a href="#apply" class="btn-apply">Apply Now in 5 Minutes</a>
+  </header>
+  <main class="calculator">
+    <h3 style="margin-top:0; color:var(--primary);">Quick Loan Estimator</h3>
+    <label>Desired Amount: <strong>₦10,000,000</strong></label>
+    <input type="range" min="1000000" max="50000000" step="1000000" style="width:100%; margin: 10px 0 20px;">
+    <a href="#apply" class="btn-apply" style="display:block; text-align:center;">Proceed with Application</a>
+  </main>
+</body>
+</html>
